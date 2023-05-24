@@ -7,6 +7,12 @@ void main(){
   //Puede ser nulo - aqui instanciamos un valor que puede ser nulo
   bool? isActive;
 
+  //Uso de dynamic
+  dynamic errorMessage = "Hola";
+  errorMessage=4654;
+  errorMessage=[1,2,6,4,7];
+  errorMessage={1,2,3,4,5};
+
   print("""
   This is my pokemon called
   $pokemon
@@ -16,5 +22,6 @@ void main(){
 
   His abilities are $abilities
   His sprites are $sprites
+  Dyanamic gaaa $errorMessage
 """);
 }
