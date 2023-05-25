@@ -6,7 +6,7 @@ void main(){
   print("This is the reverse LIST ${reverseNumbers.toList()}");
   print("This is the reverse SET  ${reverseNumbers.toSet()}");
   
-  final numberGreaterThan5 = numbers.where((num){
+  final numberGreaterThan5 = numbers.where((int num){
     return num>5 ;
   });
   print("new -> $numberGreaterThan5");
