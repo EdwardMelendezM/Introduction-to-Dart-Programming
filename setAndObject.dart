@@ -11,10 +11,10 @@ void main(){
   numeros.removeAll({4, 5});
 
 // Verificar si un elemento está en el conjunto
-  bool contieneDos = numeros.contains(2);
+  // bool contieneDos = numeros.contains(2);
 
 // Obtener la longitud del conjunto
-  int longitud = numeros.length;
+  // int longitud = numeros.length;
 
   // Recorrer el conjunto
   for (var numero in numeros) {
