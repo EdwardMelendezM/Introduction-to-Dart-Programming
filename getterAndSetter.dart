@@ -9,7 +9,8 @@ class Square{
 
   Square({
     required double side
-  }):_side=side;
+  }):assert(side>0),
+      _side=side;
 
 
   double get area{
