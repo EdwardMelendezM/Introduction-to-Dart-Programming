@@ -1,6 +1,6 @@
 void main(){
   int suma = 10;
-  var hola = "Hola mundo";
+  String hola = "Hola mundo";
   bool value = false;
   double doble = 3.1415;
   print("La int es :$suma");
